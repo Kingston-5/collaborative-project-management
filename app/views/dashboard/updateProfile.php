@@ -13,22 +13,30 @@ $form = new Form();
         <div class="block border-2 w-10/12 rounded-lg shadow-lg py-10 md:py-8 px-4 md:px-6">
         <div class="max-w-lg mx-auto text-xs">
 					<?php $form = Form::begin('', 'post') ?>
+
+          <div class="flex flex-row w-full justify-between">
 					<?php echo $form->field($model, 'firstname', $user->firstname) ?>
 					<?php echo $form->field($model, 'lastname', $user->lastname) ?>
+          </div>
+          <div class="flex flex-row w-full justify-between">
 					<?php echo $form->field($model, 'email', $user->email) ?>
 
 					<?php echo $form->field($model, 'password', 'Old Password')->passwordField() ?>
+          </div>
+
+          <div class="flex flex-row w-full justify-between">
 					<?php echo $form->field($model, 'password', 'New Password')->passwordField() ?>
 					<?php echo $form->field($model, 'passwordConfirm', 'Confirm New Password')->passwordField() ?>
+          </div>
 
-					<button type="submit" class="block w-full p-3 text-base font-bold bg-blue-600 text-white
+					<button type="submit" class="block w-full p-3 text-base font-bold bg-violet-600 text-white
             leading-tight
             uppercase
             rounded
             shadow-md
-            hover:bg-blue-700 hover:shadow-lg
-            focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-            active:bg-blue-800 active:shadow-lg
+            hover:bg-violet-700 hover:shadow-lg
+            focus:bg-violet-700 focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-violet-800 active:shadow-lg
             transition
             duration-150
             ease-in-out" aria-label="Contact Section Form Submit Button">Save</button>

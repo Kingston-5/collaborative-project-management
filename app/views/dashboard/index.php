@@ -7,13 +7,13 @@ use kingston\icarus\Application;
 
 <!-- Main section -->
 <section id="dashboard" class="my-24 px-6 mx-auto" aria-label="Dashboard Section">
-	<div class="mb-32 text-gray-800" aria-label="Dashboard Section">
-		<div class="flex flex-col justify-between relative overflow-none bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('/img/bg-1.jpg'); height: 300px;">
+	<div class="mb-32 text-violet-500" aria-label="Dashboard Section">
+		<!-- <div class="flex flex-col justify-between relative overflow-none bg-no-repeat bg-cover" style="background-position: 50%; background-image: url('/img/bg-1.jpg'); height: 300px;">
 
-		</div>
-		<div class="container w-full flex justify-center text-gray-800 px-4 md:px-12">
+		</div> -->
+		<div class="container w-full flex justify-center text-violet-500 px-4 md:px-12">
 
-			<div class="block w-10/12 rounded-lg shadow-lg py-10 md:py-8 px-4 md:px-6" style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
+			<div class="block w-10/12 rounded-lg shadow-lg py-10 md:py-8 px-4 md:px-6" style=" background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
 				<div class="p-5 mb-12 flex flex-row flex-wrap items-center justify-center lg:justify-start">
 					<img class="m-2 max-h-40 rounded-full" src="/img/person-icon.png" alt="default Profile Picture">
 					<div class="">
@@ -35,16 +35,16 @@ use kingston\icarus\Application;
 						</div>
 
 						<div class="flex flex-row flex-wrap">
-							<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+							<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 								<div class="flex items-center" aria-label="total visitors">
-									<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">0</span>
-									<h3 class="text-base font-normal text-gray-500">Posts</h3>
+									<span class="text-xl sm:text-xl leading-none font-bold text-white">0</span>
+									<h3 class="text-base font-normal text-white">Posts</h3>
 								</div>
 							</div>
-							<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+							<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 								<div class="flex items-center" aria-label="total visitors">
-									<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">0</span>
-									<h3 class="text-base font-normal text-gray-500">Comments</h3>
+									<span class="text-xl sm:text-xl leading-none font-bold text-white">0</span>
+									<h3 class="text-base font-normal text-white">Comments</h3>
 								</div>
 							</div>
 
@@ -56,38 +56,38 @@ use kingston\icarus\Application;
 
 					<div class="flex flex-row flex-wrap">
 
-						<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+						<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 							<div class="flex items-center" aria-label="total visitors">
-								<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">
+								<span class="text-xl sm:text-xl leading-none font-bold text-white">
 									0
 								</span>
-								<h3 class="text-base font-normal text-gray-500">Total Posts</h3>
+								<h3 class="text-base font-normal text-white">Total Posts</h3>
 							</div>
 						</div>
-						<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+						<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 							<div class="flex items-center" aria-label="total visitors">
-								<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">
+								<span class="text-xl sm:text-xl leading-none font-bold text-white">
 									0
 								</span>
-								<h3 class="text-base font-normal text-gray-500">Total Comments</h3>
+								<h3 class="text-base font-normal text-white">Total Comments</h3>
 							</div>
 						</div>
-						<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+						<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 
 							<div class="flex items-center" aria-label="total visitors">
-								<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">
+								<span class="text-xl sm:text-xl leading-none font-bold text-white">
 									<?php echo $visitors ?>
 								</span>
-								<h3 class="text-base font-normal text-gray-500">Total Visitors</h3>
+								<h3 class="text-base font-normal text-white">Total Visitors</h3>
 							</div>
 						</div>
 
-						<div class="m-3 bg-white shadow border rounded-lg p-4" aria-label="total visitors stats">
+						<div class="m-3 bg-violet-500 shadow border rounded-lg p-4" aria-label="total visitors stats">
 							<div class="flex items-center" aria-label="total visitors">
-								<span class="text-xl sm:text-xl leading-none font-bold text-gray-900">
+								<span class="text-xl sm:text-xl leading-none font-bold text-white">
 									0
 								</span>
-								<h3 class="text-base font-normal text-gray-500">Total Votes</h3>
+								<h3 class="text-base font-normal text-white">Total Votes</h3>
 							</div>
 						</div>
 					</div>
