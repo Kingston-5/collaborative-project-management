@@ -1,0 +1,26 @@
+{
+    "name": "kingston/base",
+    "autoload": {
+        "psr-4": {
+            "kingstonenterprises\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "qhawe",
+            "email": "qhawe@kingston-enterprises.net"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "kingston/icarus": "^v19.04.23"},
+        "config": {
+            "preferred-install": {
+                "kingston/icarus": "source"
+            }
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^9.5"
+        }
+
+}
